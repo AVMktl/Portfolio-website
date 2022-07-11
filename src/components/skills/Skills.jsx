@@ -65,7 +65,7 @@ const Skills = () => {
               <div key={img_id} className="skill__content">
                 <div className="circle">
                   <div className="half-cir">
-                    <img src={img} alt="" />
+                    <img src={img} alt="skill image" />
                   </div>
                 </div>
                 <h4>{img_title}</h4>
@@ -82,7 +82,7 @@ const Skills = () => {
               <div key={img_id} className="skill__content">
                 <div className="circle">
                   <div className="half-cir">
-                    <img src={img} alt="" />
+                    <img src={img} alt="skill image" />
                   </div>
                 </div>
                 <h4>{img_title}</h4>

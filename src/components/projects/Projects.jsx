@@ -50,7 +50,7 @@ const Projects = () => {
           return (
             <article key={id} className="portfolio__item">
               <div className="portfolio__item-image">
-                <img src={image} alt="" />
+                <img src={image} alt="project image" />
               </div>
               <h3 className="proj-heading">{title}</h3>
               <h5>{description}</h5>
